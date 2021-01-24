@@ -86,7 +86,7 @@ var app = new Vue({
             const repos = document.getElementById('repos')
             for(let i=0 ; i<3 ; i++ ){
                 if(this.idx < this.repoData.length -1){
-                    this.idx +=i 
+                    this.idx +=1 
                     repos.appendChild(this.repoData[this.idx])
                 }
             }
